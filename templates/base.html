@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    {% load static %}
+    {% get_static_prefix as STATIC_PREFIX %}
+    <link rel="stylesheet" type="text/css" href="{{STATIC_PREFIX}}css/bootstrap.min.css"/>
+<!--[if lt IE 9]>
+    <script type="text/javascript" src="{{STATIC_PREFIX}}js/html5shiv.js"  charset="utf-8"></script>
+    <script type="text/javascript" src="{{STATIC_PREFIX}}js/respond.js"  charset="utf-8"></script>
+ <![endif]-->
+    {%block scripts_block%}{% endblock %}
+</head>
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">天物工作室</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="邮件地址" class="form-control"/>
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="密码" class="form-control"/>
+            </div>
+            <button type="submit" class="btn btn-success">登录</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>天物工作室</h1>
+        <p>提供各种解决方案</p>
+        <p><a class="btn btn-primary btn-lg" role="button">了解更多 &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>.Net邮件系统</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">了解详细 &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>.Net电子文档系统</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">了解详细 &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Activex控件定制开发</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">了解详细 &raquo;</a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Django审核系统</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">了解详细 &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>邮件服务器搭建</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">了解详细&raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>FTP服务器搭建</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">了解详细 &raquo;</a></p>
+        </div>
+      </div>
+      <hr>
+
+      <footer>
+        <p>&copy; 天物工作室</p>
+      </footer>
+    </div> <!-- /container -->
+
+    <script type="text/javascript" src="{{STATIC_PREFIX}}js/bootstrap.min.js" charset="utf-8"></script>
+</body>
+</html>
