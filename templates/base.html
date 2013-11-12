@@ -1,95 +1,104 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     {% load static %}
     {% get_static_prefix as STATIC_PREFIX %}
-    <link rel="stylesheet" type="text/css" href="{{STATIC_PREFIX}}css/bootstrap.min.css"/>
-<!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_PREFIX }}css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_PREFIX }}css/zan.min.css"/>
+    <!--[if lt IE 9]>
     <script type="text/javascript" src="{{STATIC_PREFIX}}js/html5shiv.js"  charset="utf-8"></script>
     <script type="text/javascript" src="{{STATIC_PREFIX}}js/respond.js"  charset="utf-8"></script>
  <![endif]-->
-    {%block scripts_block%}{% endblock %}
+    <script type="text/javascript" src="{{STATIC_PREFIX}}js/jquery.min.js"  charset="utf-8"></script>
+    <script type="text/javascript" src="{{STATIC_PREFIX}}js/bootstrap.min.js"  charset="utf-8"></script>
+    {% block scripts_block %}{% endblock %}
 </head>
 <body>
-
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">天物工作室</a>
-        </div>
-
-        <div class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="邮件地址" class="form-control"/>
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="密码" class="form-control"/>
-            </div>
-            <button type="submit" class="btn btn-success">登录</button>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </div>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>天物工作室</h1>
-        <p>提供软件外包的各种解决方案。</p>
-        <p><a class="btn btn-primary btn-lg" role="button">了解更多 &raquo;</a></p>
-      </div>
-    </div>
-
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">天物工作室</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首页</a></li>
+                <li><a href="#">软件定制流程</a></li>
+                <li><a href="#">软件下载</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <div class="container">
+        <h1>天物工作室</h1>
+
+        <p>天物软件工作室有多年的软件开发经验，专注于：B/S管理平台，wxPython客户端程序，Activex控件开发。邮件服务器，FTP服务器定制化搭建。<br/></p>
+
+        <p><a class="btn btn-primary btn-lg" role="button">了解更多 &raquo;</a></p>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
         <div class="col-md-4">
-          <h2>.Net/Java/Django Extjs管理平台</h2>
-          <p>基于Extjs管理平台，后台可选用.Net/Java/Django，Activti引擎提供工作流支持。</p>
-          <p><a class="btn btn-default" href="#" role="button">效果截图 &raquo;</a></p>
+            <h2>B/S管理平台</h2>
+            <p>后台语言用Django/C#/Java，前台可选用Extjs，Activti引擎提供工作流支持。</p>
+            <p><a class="btn btn-default" href="#" role="button">效果截图 &raquo;</a></p>
         </div>
 
         <div class="col-md-4">
-          <h2>PDF在线转换</h2>
-          <p>常见格式在线转换为PDF，后台使用Java+Openoffice实现，服务器支持Linux，Windows。网页上传文档，后台服务器转换完毕后下载PDF格式文档。</p>
-          <p><a class="btn btn-default" href="#" role="button">在线示例 &raquo;</a></p>
+            <h2>PDF在线转换</h2>
+
+            <p>常见格式在线转换为PDF，后台使用Java+Openoffice实现，服务器支持Linux，Windows。点击“在线转换”进入在线示例。网页上传文档，后台服务器转换完毕后下载PDF格式文档。</p>
+
+            <p><a class="btn btn-default" href="#" role="button">在线转换 &raquo;</a></p>
         </div>
         <div class="col-md-4">
-          <h2>Activex控件定制开发</h2>
-          <p>空间支持FTP大文件上传下载，支持读取Key证书实现CA私钥解密算法，实现CA认证功能。</p>
-          <p><a class="btn btn-default" href="#" role="button">效果截图 &raquo;</a></p>
+            <h2>Activex控件定制开发</h2>
+
+            <p>插件现有功能(只支持IE浏览器，不提供数字签名):<br/>1.RSA算法加接密，支持读取UsbKey证书。<br/>2.获取浏览器客户端MAC地址。<br/>3.Des加密算法。<br/>4.计算用户电脑机器码。<br/>5.其他功能的定制开发。
+            </p>
+
+            <p><a class="btn btn-default" href="#" role="button">示例截图 &raquo;</a></p>
         </div>
-      </div>
-      <div class="row">
+    </div>
+    <div class="row">
         <div class="col-md-4">
-          <h2>wxPythoh程序定制开发</h2>
-          <p>wxPythoh开发客户端程序。</p>
-          <p><a class="btn btn-default" href="#" role="button">效果截图 &raquo;</a></p>
+            <h2>wxPythoh程序定制开发</h2>
+            <img src="{{STATIC_PREFIX}}images/wxpython.png">
+            <p>wxPythoh开发客户端程序。</p>
+
+            <p><a class="btn btn-default" href="#" role="button">效果截图 &raquo;</a></p>
         </div>
         <div class="col-md-4">
-          <h2>hmailServer邮件服务器</h2>
-          <p>同步用户数据，二次开发。</p>
-          <p><a class="btn btn-default" href="#" role="button">效果截图&raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>FTP服务器搭建</h2>
-          <p>同步现有用户数据，支持Windows(Windows服务)，Linux服务器。</p>
-          <p><a class="btn btn-default" href="#" role="button">效果截图 &raquo;</a></p>
+            <h2>HMailServer邮件服务器</h2>
+             <img src="{{STATIC_PREFIX}}images/email.png">
+            <p>HMailServer是一个运行于微软Windows系统、基于GPL授权、免费的电子邮件系统；
+                支持常见的电子邮件协议SMTP、POP3、IMAP；可以很容易地与许多现有的网络邮件系统集成和二次开发；
+                具有灵活的垃圾邮件防护，并且可以使用防病毒系统扫描所有传入和传出的电子邮件；
+                在现有用户基础上提供二次开发。</p>
+            <p><a class="btn btn-default" href="#" role="button">效果截图&raquo;</a></p>
         </div>
-      </div>
-      <hr>
-      <footer>
+        <div class="col-md-4">
+            <h2>FTP服务器搭建</h2>
+
+            <p>同步现有用户数据，支持Windows(Windows服务)，Linux服务器。</p>
+
+            <p><a class="btn btn-default" href="#" role="button">效果截图 &raquo;</a></p>
+        </div>
+    </div>
+    <hr>
+    <footer>
         <p>&copy; 天物工作室</p>
-      </footer>
-    </div> <!-- /container -->
-    <script type="text/javascript" src="{{STATIC_PREFIX}}js/bootstrap.min.js" charset="utf-8"></script>
+    </footer>
+</div>
+<!-- /container -->
+<script type="text/javascript" src="{{ STATIC_PREFIX }}js/bootstrap.min.js" charset="utf-8"></script>
 </body>
 </html>
