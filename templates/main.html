@@ -1,4 +1,59 @@
 {% extends "base.html" %}
-{%block body%}
+{% block top %}
+<li class="active"><a href="/">首页</a></li>
+<li><a href="/dev">软件开发</a></li>
+<li><a href="/orign">原创软件</a></li>
+<li><a href="/blog">天物博客</a></li>
+{% endblock %}
+{%block container%}
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-md-4">
+            <h2>B/S管理平台</h2>
+             <img src="{{STATIC_PREFIX}}images/django.png">
+            <p>后台语言可选用Django/C#/Java，前台可选用Extjs，采用了MVC的软件设计模式，即模型M，视图V和控制器C。Activti引擎提供工作流支持。</p>
+            <p><a class="btn btn-default" href="#" role="button">成功案例 &raquo;</a></p>
+        </div>
+
+        <div class="col-md-4">
+            <h2>PDF在线转换</h2>
+            <p>常见格式在线转换为PDF，后台使用Java+Openoffice实现，服务器支持Linux，Windows。点击“在线转换”进入在线示例。网页上传文档，后台服务器转换完毕后下载PDF格式文档。</p>
+            <p><a class="btn btn-default" href="#" role="button">在线转换 &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Activex控件定制开发</h2>
+
+            <p>插件现有功能(只支持IE浏览器，不提供数字签名):<br/>1.RSA算法加接密，支持读取UsbKey证书。<br/>2.获取浏览器客户端MAC地址。<br/>3.Des加密算法。<br/>4.计算用户电脑机器码。<br/>5.其他功能的定制开发。
+            </p>
+
+            <p><a class="btn btn-default" href="#" role="button">成功案例 &raquo;</a></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h2>wxPythoh程序开发</h2>
+            <img src="{{STATIC_PREFIX}}images/wxpython.png">
+            <p>wxPython是Python语言的一套优秀的GUI图形库，允许Python程序员很方便的创建完整的、功能键全的GUI用户界面。 wxPython是作为优秀的跨平台GUI库wxWidgets的Python封装和Python模块的方式提供给用户的。wxPythoh开发客户端程序。</p>
+
+            <p><a class="btn btn-default" href="#" role="button">成功案例 &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>HMailServer服务器搭建</h2>
+             <img src="{{STATIC_PREFIX}}images/email.png">
+            <p>HMailServer是一个运行于微软Windows系统、基于GPL授权、免费的电子邮件系统；
+                支持常见的电子邮件协议SMTP、POP3、IMAP；可以很容易地与许多现有的网络邮件系统集成和二次开发；
+                具有灵活的垃圾邮件防护，并且可以使用防病毒系统扫描所有传入和传出的电子邮件；
+                在现有用户基础上提供二次开发。</p>
+            <p><a class="btn btn-default" href="#" role="button">成功案例&raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>FTP服务器搭建</h2>
+            <img src="{{STATIC_PREFIX}}images/logo">
+            <p>Python FTP server library (pyftpdlib) 提供了高级的便携式的编程接口，用来实现异步的FTP服务器的功能。基本上实现了 RFC-959 规范。基于该标准同步现有用户数据，开发管理平台，支持Windows(Windows服务)，Linux服务器。</p>
+            <p><a class="btn btn-default" href="#" role="button">成功案例 &raquo;</a></p>
+        </div>
+    </div>
+    <hr>
+
 
 {% endblock %}

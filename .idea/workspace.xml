@@ -5,11 +5,16 @@
     <ignored path="WorkStudio.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="da6672aa-c0cb-4564-8029-1f08a16d534a" time="1383872997073" ignored="false" />
-    <file path="/base.html" changelist="da6672aa-c0cb-4564-8029-1f08a16d534a" time="1384238368643" ignored="false" />
-    <file path="/urls.py" changelist="da6672aa-c0cb-4564-8029-1f08a16d534a" time="1383879655500" ignored="false" />
-    <file path="/settings.py" changelist="da6672aa-c0cb-4564-8029-1f08a16d534a" time="1383879942584" ignored="false" />
+    <file path="/base.html" changelist="da6672aa-c0cb-4564-8029-1f08a16d534a" time="1384497906767" ignored="false" />
+    <file path="/urls.py" changelist="da6672aa-c0cb-4564-8029-1f08a16d534a" time="1384498627955" ignored="false" />
+    <file path="/settings.py" changelist="da6672aa-c0cb-4564-8029-1f08a16d534a" time="1384508609981" ignored="false" />
     <file path="$PROJECT_DIR$/../science/science/settings.py" changelist="da6672aa-c0cb-4564-8029-1f08a16d534a" time="1383891808140" ignored="false" />
     <file path="/a.dummy" changelist="da6672aa-c0cb-4564-8029-1f08a16d534a" time="1384230005221" ignored="false" />
+    <file path="/main.html" changelist="da6672aa-c0cb-4564-8029-1f08a16d534a" time="1384497987407" ignored="false" />
+    <file path="/my.css" changelist="da6672aa-c0cb-4564-8029-1f08a16d534a" time="1384489332065" ignored="false" />
+    <file path="/cutstom.html" changelist="da6672aa-c0cb-4564-8029-1f08a16d534a" time="1384494644879" ignored="false" />
+    <file path="/dev.html" changelist="da6672aa-c0cb-4564-8029-1f08a16d534a" time="1384498039528" ignored="false" />
+    <file path="/orign.html" changelist="da6672aa-c0cb-4564-8029-1f08a16d534a" time="1384501787677" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WorkStudio/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="17" selection-start="2141" selection-end="2141" vertical-scroll-proportion="0.0">
+            <state line="37" column="30" selection-start="980" selection-end="980" vertical-scroll-proportion="-0.11143695">
               <folding />
             </state>
           </provider>
@@ -41,17 +46,19 @@
       <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="-1.3571428">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="importlib.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/django/utils/importlib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="1" column="0" selection-start="26" selection-end="201" vertical-scroll-proportion="-0.6785714">
+              <folding>
+                <marker date="1384497979788" expanded="true" signature="278:1212" placeholder="..." />
+                <marker date="1384497979788" expanded="true" signature="309:597" placeholder="..." />
+                <marker date="1384497979788" expanded="true" signature="629:875" placeholder="..." />
+                <marker date="1384497979788" expanded="true" signature="906:1201" placeholder="..." />
+                <marker date="1384497979788" expanded="true" signature="958:1099" placeholder="..." />
+                <marker date="1384497979788" expanded="true" signature="1234:2457" placeholder="..." />
+                <marker date="1384497979788" expanded="true" signature="1265:1621" placeholder="..." />
+                <marker date="1384497979788" expanded="true" signature="1652:2072" placeholder="..." />
+                <marker date="1384497979788" expanded="true" signature="1765:1972" placeholder="..." />
+                <marker date="1384497979788" expanded="true" signature="2103:2446" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,26 +66,84 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WorkStudio/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="7" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+            <state line="13" column="86" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="finders.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/django/contrib/staticfiles/finders.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="0" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="my.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/my.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="4" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orign.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/orign.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="63" selection-start="615" selection-end="615" vertical-scroll-proportion="-11.535714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reg.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/reg.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notes.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/notes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="7" selection-start="81" selection-end="81" vertical-scroll-proportion="-5.428571">
+              <folding>
+                <marker date="1384486548062" expanded="true" signature="21:80" placeholder="..." />
+                <marker date="1384486548062" expanded="true" signature="28:56" placeholder="..." />
+                <marker date="1384486548062" expanded="true" signature="63:72" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="34" selection-start="1973" selection-end="1973" vertical-scroll-proportion="0.403183">
+            <state line="23" column="46" selection-start="1035" selection-end="1035" vertical-scroll-proportion="-5.428571">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WorkStudio/wsgi.py">
+      <file leaf-file-name="dev.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dev.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="0" column="0" selection-start="0" selection-end="201" vertical-scroll-proportion="-0.0">
+              <folding>
+                <marker date="1384498443827" expanded="true" signature="243:1213" placeholder="..." />
+                <marker date="1384498443827" expanded="true" signature="252:1202" placeholder="..." />
+                <marker date="1384498443827" expanded="true" signature="288:411" placeholder="..." />
+                <marker date="1384498443827" expanded="true" signature="448:600" placeholder="..." />
+                <marker date="1384498443827" expanded="true" signature="637:835" placeholder="..." />
+                <marker date="1384498443827" expanded="true" signature="872:1119" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,19 +168,28 @@
       <list>
         <option value="$PROJECT_DIR$/static/js/html5shiv.js" />
         <option value="$PROJECT_DIR$/static/js/respond.js" />
+        <option value="$PROJECT_DIR$/static/css/bootstrap-ie6.css" />
+        <option value="$PROJECT_DIR$/templates/works.html" />
+        <option value="$PROJECT_DIR$/templates/productlist.html" />
+        <option value="$PROJECT_DIR$/templates/productdetail.html" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/templates/notes.html" />
+        <option value="$PROJECT_DIR$/static/css/my.css" />
+        <option value="$PROJECT_DIR$/templates/cutstom.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/main.html" />
+        <option value="$PROJECT_DIR$/templates/dev.html" />
+        <option value="$PROJECT_DIR$/templates/orign.html" />
         <option value="$PROJECT_DIR$/WorkStudio/urls.py" />
         <option value="$PROJECT_DIR$/WorkStudio/settings.py" />
-        <option value="$PROJECT_DIR$/static/css/bootstrap-ie6.css" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1414" />
-    <option name="y" value="743" />
-    <option name="width" value="1265" />
-    <option name="height" value="898" />
+    <option name="x" value="162" />
+    <option name="y" value="108" />
+    <option name="width" value="1496" />
+    <option name="height" value="762" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -171,11 +245,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkStudio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -193,21 +277,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkStudio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WorkStudio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -225,6 +295,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -235,7 +319,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../science" />
+    <property name="last_opened_file_path" value="D:/公司项目/C#/Email.Doc.WF/Doc.Web/FtpSever" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
@@ -390,7 +474,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -418,7 +502,9 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonCover" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonCover" />
       <method />
     </configuration>
     <list size="2">
@@ -458,23 +544,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1414" y="743" width="1265" height="898" extended-state="0" />
+    <frame x="162" y="108" width="1496" height="762" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24937657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26101413" sideWeight="0.6021651" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39783493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24895397" sideWeight="0.7138927" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28033474" sideWeight="0.6467662" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35323384" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -541,91 +627,140 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.min.js">
+    <entry file="file://$PROJECT_DIR$/templates/orignview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1384486487505" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1384486487505" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1384486487505" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+    <entry file="file://$PROJECT_DIR$/static/images/django.png">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/respond.js">
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3180" selection-start="866" selection-end="4046" vertical-scroll-proportion="0.17890772" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/html5shiv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="94" selection-start="2350" selection-end="2350" vertical-scroll-proportion="0.25047082" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/django/utils/importlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0">
+        <state line="8" column="64834" selection-start="65047" selection-end="65047" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WorkStudio/settings.py">
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="17" selection-start="2141" selection-end="2141" vertical-scroll-proportion="0.0">
+        <state line="37" column="10" selection-start="523" selection-end="523" vertical-scroll-proportion="0.939759">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap-theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="12" column="13" selection-start="279" selection-end="279" vertical-scroll-proportion="-1.28">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WorkStudio/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/static/css/my.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/notes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="7" selection-start="81" selection-end="81" vertical-scroll-proportion="-5.428571">
+          <folding>
+            <marker date="1384486548062" expanded="true" signature="21:80" placeholder="..." />
+            <marker date="1384486548062" expanded="true" signature="28:56" placeholder="..." />
+            <marker date="1384486548062" expanded="true" signature="63:72" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="26" selection-end="201" vertical-scroll-proportion="-0.6785714">
+          <folding>
+            <marker date="1384497979788" expanded="true" signature="278:1212" placeholder="..." />
+            <marker date="1384497979788" expanded="true" signature="309:597" placeholder="..." />
+            <marker date="1384497979788" expanded="true" signature="629:875" placeholder="..." />
+            <marker date="1384497979788" expanded="true" signature="906:1201" placeholder="..." />
+            <marker date="1384497979788" expanded="true" signature="958:1099" placeholder="..." />
+            <marker date="1384497979788" expanded="true" signature="1234:2457" placeholder="..." />
+            <marker date="1384497979788" expanded="true" signature="1265:1621" placeholder="..." />
+            <marker date="1384497979788" expanded="true" signature="1652:2072" placeholder="..." />
+            <marker date="1384497979788" expanded="true" signature="1765:1972" placeholder="..." />
+            <marker date="1384497979788" expanded="true" signature="2103:2446" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/reg.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="64834" selection-start="65047" selection-end="65047" vertical-scroll-proportion="0.37530863">
+        <state line="23" column="46" selection-start="1035" selection-end="1035" vertical-scroll-proportion="-5.428571">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dev.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="201" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1384498443827" expanded="true" signature="243:1213" placeholder="..." />
+            <marker date="1384498443827" expanded="true" signature="252:1202" placeholder="..." />
+            <marker date="1384498443827" expanded="true" signature="288:411" placeholder="..." />
+            <marker date="1384498443827" expanded="true" signature="448:600" placeholder="..." />
+            <marker date="1384498443827" expanded="true" signature="637:835" placeholder="..." />
+            <marker date="1384498443827" expanded="true" signature="872:1119" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/orign.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="63" selection-start="615" selection-end="615" vertical-scroll-proportion="-11.535714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="197" column="0" selection-start="7770" selection-end="7770" vertical-scroll-proportion="3.142553">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/contrib/staticfiles/finders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WorkStudio/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="7" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="13" column="86" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main.html">
+    <entry file="file://$PROJECT_DIR$/WorkStudio/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="-1.3571428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/zan.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="3" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="34" selection-start="1973" selection-end="1973" vertical-scroll-proportion="0.403183">
+        <state line="37" column="30" selection-start="980" selection-end="980" vertical-scroll-proportion="-0.11143695">
           <folding />
         </state>
       </provider>
