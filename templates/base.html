@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> {% block titletext %}{% endblock %}</title>
     {% load static %}
     {% get_static_prefix as STATIC_PREFIX %}
+    <link rel="icon" href="{{ STATIC_PREFIX }}images/logo.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="{{ STATIC_PREFIX }}css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="{{ STATIC_PREFIX }}css/my.css"/>
     <!--[if lt IE 9]>
     <script type="text/javascript" src="{{STATIC_PREFIX}}js/html5shiv.js"  charset="utf-8"></script>
     <script type="text/javascript" src="{{STATIC_PREFIX}}js/respond.js"  charset="utf-8"></script>
- <![endif]-->
+    <![endif]-->
     {% block scripts_block %}{% endblock %}
 </head>
 <body>
@@ -21,7 +23,7 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                 {% block top %}{% endblock %}
+                {% block top %}{% endblock %}
             </ul>
         </div>
     </div>
@@ -30,23 +32,87 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
-        <h1>天物工作室</h1>
+        <h1><img src="{{ STATIC_PREFIX }}images/logo.png" style="width:95px;height:95px"/>天物工作室</h1>
         <p>天物软件工作室有多年的软件开发经验，专注于：B/S管理平台，wxPython客户端程序，win32应用程序开发，Activex控件开发。邮件服务器，FTP服务器定制化搭建，网站建设。<br/></p>
-        <p><a class="btn btn-primary btn-lg" role="button">了解更多 &raquo;</a></p>
+        <p><a class="btn btn-primary btn-lg" role="button">关于我们 &raquo;</a></p>
     </div>
 </div>
+
 <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=5577964&amp;site=qq&amp;menu=yes" target="_blank">
     <div id="qq-msg"></div>
 </a>
-<div class="container">
- {% block container %}{% endblock %}
-</div>
-<footer>
-    <p>&copy; 天物工作室</p>
-</footer>
-<!-- /container -->
-<script type="text/javascript" src="{{STATIC_PREFIX}}js/jquery.min.js"  charset="utf-8"></script>
-<script type="text/javascript" src="{{ STATIC_PREFIX }}js/bootstrap.min.js" charset="utf-8"></script>
 
+<div class="container">
+    {% block container %}{% endblock %}
+</div>
+
+
+<div id="tw-footer">
+    <div id="link">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-2">
+                <dl>
+                    <dt>关于</dt>
+                    <dd><a href="#">关于天物</a></dd>
+                    <dd><a href="#">版权声明</a></dd>
+                    <dd><a href="#">免责声明</a></dd>
+                    <dd><a href="#">网站地图</a></dd>
+                </dl>
+            </div>
+            <div class="col-md-2 col-sm-2">
+                <dl>
+                    <dt>业务</dt>
+                    <dd><a href="/dev">软件开发</a></dd>
+                    <dd><a href="/orign">原创软件</a></dd>
+                    <dd><a href="/net">网站建设</a></dd>
+                </dl>
+            </div>
+
+            <div class="col-md-2 col-sm-2">
+                <dl>
+                    <dt>联系</dt>
+                    <dd><a href="#">联系我们</a></dd>
+                    <dd><a href="#">在线咨询</a></dd>
+                </dl>
+            </div>
+
+            <div class="col-md-2 col-sm-2">
+                <dl>
+                    <dt>支持</dt>
+                    <dd><a href="#">天物博客</a></dd>
+                    <dd><a href="#">Bootstrap</a></dd>
+                </dl>
+            </div>
+
+            <div class="col-md-2 col-sm-2">
+                <dl>
+                    <dt>案例</dt>
+                    <dd><a href="/demo/bs/">B/S管理平台</a></dd>
+                    <dd><a href="/demo/wingui/">win32GUI开发</a></dd>
+                    <dd><a href="/demo/atx/">Activex控件定制开发</a></dd>
+                    <dd><a href="/demo/email/">HMailServer服务器开发</a></dd>
+                    <dd><a href="/demo/ftp/">FTP服务器搭建</a></dd>
+                    <dd><a href="/demo/net/">网站建设</a></dd>
+                </dl>
+            </div>
+
+            <div class="col-md-2 col-sm-2">
+                <dl>
+                    <dt>微信关注</dt>
+                    <dd><a href="#">关于天物</a></dd>
+                </dl>
+            </div>
+
+
+        </div>
+    </div>
+
+    </div>
+    <div class="tw-copyright"> Copyright © 2013 天物工作室TWSTUDIO.ORG - 用心创造每一物, All Rights Reserved. <img src="{{ STATIC_PREFIX }}images/logo.png" style="width:32px;height:32px"/></div>
+</div>
+<!-- /container -->
+<script type="text/javascript" src="{{ STATIC_PREFIX }}js/jquery.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="{{ STATIC_PREFIX }}js/bootstrap.min.js" charset="utf-8"></script>
 </body>
 </html>
