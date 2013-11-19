@@ -2,11 +2,13 @@
 ## Eclipse
 #################
 
+
 *.pydevproject
 .project
 .metadata
 bin/
 tmp/
+.idea
 *.tmp
 *.bak
 *.swp
